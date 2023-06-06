@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    background-color: #f3eae3;
+}
+.container{
+    
+    height: 90vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.row{
+    
+   display: flex;
+   flex-direction: row;
+   
+  
+   
+}
+.img{
+    position: relative;
+   width: 50vh;
+   border-radius: 10px;
+   
+}
+.img1{
+    display: block;
+    width: 100%;
+   
+}
+
+.text{
+    
+    width:50%;
+    border-radius: 10px;
+    
+    background-color:  hsl(0, 0%, 100%);
+    
+    
+}
+.perfume{
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+    
+}
+.header{
+    position: relative;
+    width: 40vh;
+
+}
+.header-h1{
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 1px hsl(212, 21%, 14%);
+    margin-bottom: 20px;
+    color:  hsl(212, 21%, 14%);
+}
+
+.para{
+    
+    position: relative;
+    width: 40vh;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+.price{
+    width: 13vh;
+    display: flex;
+    background-color: white;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.price-row{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    align-items: center;
+}
+.org-price{
+    margin-right: 20px;
+    
+    color: hsl(158, 36%, 37%);
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 500;
+}
+.strike{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.cart-container{
+    margin-bottom:1px;
+    margin-left: 25px;
+    width: 35vh;
+    height: 7vh;
+    border-radius: 10px;
+    display: flex;
+    background-color: #1a4031;
+    justify-content: center;
+    align-items: center;
+}
+.cart-row{
+    display: flex;
+    
+    
+}
+.cart-icon{
+    margin-right: 20px;
+}
+.addtocart{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (min-device-width : 100px) and (max-device-width : 392px) {
+
+    .mobile{
+        display: inline;
+        width: 100%;
+    }
+    body{
+        background-color: #f3eae3;
+    }
+    .container{
+        height: 100vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .row{
+        
+       display: flex;
+       flex-direction: column;
+       
+      
+       
+    }
+    .text{
+    
+        width:50vh;
+        
+        border-radius: 10px;
+        
+        background-color:  hsl(0, 0%, 100%);
+        
+        
+    }
+    .img{
+        position: relative;
+       width: 50vh;
+       border-radius: 10px;
+       
+    }
+    .img1{
+        display: none;
+    }
+
+    }
+    @media only screen and (min-device-width : 200px) and (max-device-width : 345px) {
+        body{
+            margin-top: 50px;
+        }
+        .mobile{
+            display: inline;
+            width: 100%;
+        }
+        body{
+            background-color: #f3eae3;
+        }
+        .container{
+            height: 100vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .row{
+            
+           display: flex;
+           flex-direction: column;
+           
+          
+           
+        }
+        .text{
+        
+            width:50vh;
+            
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            background-color:  hsl(0, 0%, 100%);
+            
+            
+        }
+        .img{
+            position: relative;
+           width: 50vh;
+           border-radius: 10px;
+           
+        }
+        .img1{
+            display: none;
+        }
+    
+        }
+
+
+
